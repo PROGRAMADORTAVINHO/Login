@@ -1,12 +1,12 @@
-@media (max-width: 767px){
+@media (max-width: 767px) {
     body {
-        background-color: green;
+        background-color: rgb(78, 214, 65);
     }
-    
+
     .Container {
         width: 100%;
     }
-    
+
     .header {
         margin-top: 50px;
         border-top-right-radius: 5%;
@@ -16,15 +16,16 @@
         width: 50%;
         background-color: white;
     }
-    
-    .Logo{
+
+    .Logo {
         margin-left: 10%;
         width: 100%;
     }
-    .Logo img{
+
+    .Logo img {
         width: 80%;
     }
-    
+
     .login {
         border-bottom-right-radius: 5%;
         border-bottom-left-radius: 5%;
@@ -35,7 +36,7 @@
         padding-bottom: 10px;
         background-color: white;
     }
-    
+
     .login input[type=endereco] {
         width: 70%;
         height: 30px;
@@ -48,7 +49,7 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
+
     .login input[type=numero] {
         width: 70%;
         height: 30px;
@@ -61,7 +62,7 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
+
     .login input[type=cep] {
         width: 70%;
         height: 30px;
@@ -74,7 +75,7 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
+
     .login input[type=complemento] {
         width: 70%;
         height: 30px;
@@ -87,7 +88,7 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
+
     .login input[type=bairro] {
         width: 70%;
         height: 30px;
@@ -100,7 +101,7 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
+
     .login input[type=cidade] {
         width: 70%;
         height: 30px;
@@ -113,7 +114,7 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
+
     .login input[type=estado] {
         width: 70%;
         height: 30px;
@@ -126,7 +127,7 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
+
     .login input[type=button] {
         width: 73%;
         height: 30px;
@@ -139,23 +140,26 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
+
     ::-webkit-input-placeholder {
         color: black;
     }
-    
+
     ::-moz-input-placeholder {
         color: black;
     }
 }
-@media (min-width: 768px) and (max-width: 1023px){
-    body{
-        background-color: green;
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: rgb(78, 214, 65);
     }
+
     .Container {
         width: 100%;
     }
-    .header{
+
+    .header {
         border-radius: 5%;
         height: 59.8%;
         width: 40%;
@@ -165,14 +169,17 @@
         left: calc(50% - 255px);
         z-index: 2;
     }
-    .Logo{
-        margin-top: 108px;
+
+    .Logo {
+        margin-top: 120PX;
+        width: 60%;
+    }
+
+    .Logo img {
         width: 100%;
     }
-    .Logo img{
-        width: 70%;
-    }
-    .login{
+
+    .login {
         border-radius: 5%;
         position: absolute;
         top: calc(31% - 50px);
@@ -183,8 +190,8 @@
         z-index: 2;
         background-color: white;
     }
-    
-    .login input[type=endereco]{
+
+    .login input[type=endereco] {
         width: 71%;
         height: 30px;
         background: transparent;
@@ -195,8 +202,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=numero]{
+
+    .login input[type=numero] {
         width: 71%;
         height: 30px;
         background: transparent;
@@ -207,8 +214,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=cep]{
+
+    .login input[type=cep] {
         width: 71%;
         height: 30px;
         background: transparent;
@@ -219,8 +226,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=complemento]{
+
+    .login input[type=complemento] {
         width: 71%;
         height: 30px;
         background: transparent;
@@ -231,8 +238,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=bairro]{
+
+    .login input[type=bairro] {
         width: 71%;
         height: 30px;
         background: transparent;
@@ -243,8 +250,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=cidade]{
+
+    .login input[type=cidade] {
         width: 71%;
         height: 30px;
         background: transparent;
@@ -255,8 +262,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=estado]{
+
+    .login input[type=estado] {
         width: 71%;
         height: 30px;
         background: transparent;
@@ -267,8 +274,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=button]{
+
+    .login input[type=button] {
         width: 75%;
         height: 35px;
         border: 1px solid black;
@@ -280,75 +287,83 @@
         padding: 6px;
         margin-top: 10px;
     }
-    
-    .login input[type=button]:hover{
+
+    .login input[type=button]:hover {
         opacity: 0.8;
     }
-    
-    .login input[type=button]:active{
+
+    .login input[type=button]:active {
         opacity: 0.6;
     }
-    
-    .login input[type=text]:focus{
+
+    .login input[type=text]:focus {
         outline: none;
-        border: 1px solid rgba(255,255,255,0.9);
+        border: 1px solid rgba(255, 255, 255, 0.9);
     }
-    
-    .login input[type=password]:focus{
+
+    .login input[type=password]:focus {
         outline: none;
-        border: 1px solid rgba(255,255,255,0.9);
+        border: 1px solid rgba(255, 255, 255, 0.9);
     }
-    
-    .login input[type=button]:focus{
+
+    .login input[type=button]:focus {
         outline: none;
     }
-    
-    ::-webkit-input-placeholder{
-       color: black;
+
+    ::-webkit-input-placeholder {
+        color: black;
     }
-    
-    ::-moz-input-placeholder{
-       color: black;
+
+    ::-moz-input-placeholder {
+        color: black;
     }
 }
-@media (min-width: 1024px){
-    body{
-        background-color: green;
+
+@media (min-width: 1024px) {
+    body {
+        margin: 0 auto;
+        background-color: rgb(78, 214, 65);
     }
+
     .Container {
-        width: 100%;
+
+        width: 50%;
     }
-    .header{
+
+    .header {
         border-radius: 5%;
         height: 59.8%;
         width: 40%;
         background-color: white;
         position: absolute;
-        top: calc(31% - 50px);
-        left: calc(50% - 255px);
+        margin-top: 15.4%;
+        margin-left: 18%;
         z-index: 1;
     }
-    .Logo{
-        margin-top: 25%;
+
+    .Logo {
+        margin-left: 10%;
+        margin-top: 22%;
         width: 100%;
     }
-    .Logo img{
+
+    .Logo img {
         width: 50%;
     }
-    
-    .login{
+
+    .login {
         border-radius: 5%;
         position: absolute;
-        top: calc(31% - 50px);
-        left: calc(55% - 50px);
+        margin-top: 15.4%;
+        margin-left: 48%;
         height: 57%;
-        width: 28%;
+        width: 30%;
         padding: 10px;
         z-index: 2;
         background-color: white;
     }
-    
-    .login input[type=endereco]{
+
+    .login input[type=endereco] {
         width: 90%;
         height: 30px;
         background: transparent;
@@ -359,8 +374,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=numero]{
+
+    .login input[type=numero] {
         width: 90%;
         height: 30px;
         background: transparent;
@@ -371,8 +386,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=cep]{
+
+    .login input[type=cep] {
         width: 90%;
         height: 30px;
         background: transparent;
@@ -383,8 +398,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=complemento]{
+
+    .login input[type=complemento] {
         width: 90%;
         height: 30px;
         background: transparent;
@@ -395,8 +410,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=bairro]{
+
+    .login input[type=bairro] {
         width: 90%;
         height: 30px;
         background: transparent;
@@ -407,8 +422,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=cidade]{
+
+    .login input[type=cidade] {
         width: 90%;
         height: 30px;
         background: transparent;
@@ -419,8 +434,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=estado]{
+
+    .login input[type=estado] {
         width: 90%;
         height: 30px;
         background: transparent;
@@ -431,8 +446,8 @@
         padding: 4px;
         margin-top: 10px;
     }
-    
-    .login input[type=button]{
+
+    .login input[type=button] {
         width: 93%;
         height: 35px;
         border: 1px solid black;
@@ -444,34 +459,34 @@
         padding: 6px;
         margin-top: 10px;
     }
-    
-    .login input[type=button]:hover{
+
+    .login input[type=button]:hover {
         opacity: 0.8;
     }
-    
-    .login input[type=button]:active{
+
+    .login input[type=button]:active {
         opacity: 0.6;
     }
-    
-    .login input[type=text]:focus{
+
+    .login input[type=text]:focus {
         outline: none;
-        border: 1px solid rgba(255,255,255,0.9);
+        border: 1px solid rgba(255, 255, 255, 0.9);
     }
-    
-    .login input[type=password]:focus{
+
+    .login input[type=password]:focus {
         outline: none;
-        border: 1px solid rgba(255,255,255,0.9);
+        border: 1px solid rgba(255, 255, 255, 0.9);
     }
-    
-    .login input[type=button]:focus{
+
+    .login input[type=button]:focus {
         outline: none;
     }
-    
-    ::-webkit-input-placeholder{
-       color: black;
+
+    ::-webkit-input-placeholder {
+        color: black;
     }
-    
-    ::-moz-input-placeholder{
-       color: black;
+
+    ::-moz-input-placeholder {
+        color: black;
     }
 }
