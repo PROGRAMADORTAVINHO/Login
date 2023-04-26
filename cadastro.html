@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="StyleCadastroPontoDeDescarteDesktop.css" media="screen and (min-width: 1024px)">
+	<link rel="stylesheet" href="StyleCadastroPontoDeDescarteTablet.css" media="screen and (min-width:768px) and (max-width:1023px)">
+	<link rel="stylesheet" href="StyleCadastroPontoDeDescarteSmartphone.css" media="screen and (min-width:375px) and (max-width:767px)">
+    <title>Cadastro - Ponto de descarte</title>
+</head>
+<body>
+    <div class="Container">
+		<div class="header">
+			<div class="Logo"> <img src="/images/Reduçao ASL.png" alt=""> </div>
+		</div>
+		<form method="post" action="/localizacao" class="login">
+				<input type="endereco" placeholder="Endereço" name="endereco">
+                <input type="numero" placeholder="Número" name="numero">
+				<input type="cep" placeholder="Cep" name="cep">
+                <input type="complemento" placeholder="Complemento" name="complemento">
+				<input type="bairro" placeholder="Bairro" name="bairro">
+                <input type="cidade" placeholder="Cidade" name="cidade">
+				<input type="estado" placeholder="Estado" name="estado">
+				<input type="button" value="Cadastrar"> 
+		</form>
+	</div>
+</body>
+</html>
