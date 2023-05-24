@@ -299,7 +299,9 @@
 @media (min-width: 1024px) {
     body {
         margin: 0 auto;
-        background-color: rgb(78, 214, 65);
+        background-image: url(/images/teste3.webp);
+        background-repeat: no-repeat;
+        background-position: 5000px;
     }
 
     .Container {
@@ -307,36 +309,37 @@
     }
 
     .header {
-        border-radius: 5%;
-        height: 59.8%;
-        width: 40%;
-        background-color: white;
+        height: 65%;
+        width: 30%;
         position: absolute;
-        margin-top: 15.4%;
+        margin-top: 12%;
         margin-left: 18%;
         z-index: 1;
+        background-color: #055a05;
+        border: 1px solid rgb(0, 0, 0);
     }
 
     .Logo {
-        margin-left: 10%;
-        margin-top: 22%;
+        margin-left: 8%;
+        margin-top: 50%;
         width: 100%;
     }
 
     .Logo img {
-        width: 50%;
+        width: 80%;
     }
 
     .login {
-        border-radius: 5%;
         position: absolute;
-        margin-top: 15.4%;
+        margin-top: 12%;
         margin-left: 48%;
-        height: 57%;
+        height: 65%;
         width: 30%;
-        padding: 10px;
+        padding-left: 50px;
+        padding-right: 25px;
+        
         z-index: 2;
-        background-color: white;
+        border: 1px solid rgb(0, 0, 0);
     }
 
     .login input[type=endereco] {
@@ -348,7 +351,7 @@
         color: black;
         font-size: 16px;
         padding: 4px;
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     .login input[type=numero] {
@@ -445,11 +448,6 @@
     }
 
     .login input[type=text]:focus {
-        outline: none;
-        border: 1px solid rgba(255, 255, 255, 0.9);
-    }
-
-    .login input[type=password]:focus {
         outline: none;
         border: 1px solid rgba(255, 255, 255, 0.9);
     }
